@@ -1,0 +1,112 @@
+[debug] [2022-08-19T20:49:34.651Z] ----------------------------------------------------------------------
+[debug] [2022-08-19T20:49:34.653Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2022-08-19T20:49:34.653Z] CLI Version:   3.12.0
+[debug] [2022-08-19T20:49:34.653Z] Platform:      win32
+[debug] [2022-08-19T20:49:34.653Z] Node Version:  v14.17.0
+[debug] [2022-08-19T20:49:34.654Z] Time:          Fri Aug 19 2022 13:49:34 GMT-0700 (Pacific Daylight Time)
+[debug] [2022-08-19T20:49:34.654Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-19T20:49:34.661Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2022-08-19T20:49:34.662Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\HTML projects\Amazon 2.0
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-19T20:50:32.725Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-08-19T20:50:32.726Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token {
+  refresh_token: '1//0gH9Fky_pX5xVCgYIARAAGBASNwF-L9IrgogqoteNUF-GO9Rg3yXRQJeneNEend-hntN9-GaHaxJbXGLkzlkpeDanYOvHLU1xd8Q',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid'
+} 
+ Fri Aug 19 2022 13:50:32 GMT-0700 (Pacific Daylight Time)
+[debug] [2022-08-19T20:50:33.072Z] <<< HTTP RESPONSE 200
+[debug] [2022-08-19T20:50:33.077Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Fri Aug 19 2022 13:50:33 GMT-0700 (Pacific Daylight Time)
+[debug] [2022-08-19T20:50:36.746Z] Error: connect ECONNREFUSED 104.197.85.31:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+[error] 
+[error] Error: Server Error. connect ECONNREFUSED 104.197.85.31:443
+[debug] [2022-08-19T20:50:56.567Z] ----------------------------------------------------------------------
+[debug] [2022-08-19T20:50:56.569Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2022-08-19T20:50:56.569Z] CLI Version:   3.12.0
+[debug] [2022-08-19T20:50:56.569Z] Platform:      win32
+[debug] [2022-08-19T20:50:56.569Z] Node Version:  v14.17.0
+[debug] [2022-08-19T20:50:56.570Z] Time:          Fri Aug 19 2022 13:50:56 GMT-0700 (Pacific Daylight Time)
+[debug] [2022-08-19T20:50:56.570Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-19T20:50:56.578Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2022-08-19T20:50:56.578Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\HTML projects\Amazon 2.0
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-19T20:51:02.444Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Fri Aug 19 2022 13:51:02 GMT-0700 (Pacific Daylight Time)
+[debug] [2022-08-19T20:51:06.212Z] Error: connect ECONNREFUSED 104.197.85.31:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+[error] 
+[error] Error: Server Error. connect ECONNREFUSED 104.197.85.31:443
+[debug] [2022-08-19T20:53:54.948Z] ----------------------------------------------------------------------
+[debug] [2022-08-19T20:53:54.950Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2022-08-19T20:53:54.950Z] CLI Version:   3.12.0
+[debug] [2022-08-19T20:53:54.950Z] Platform:      win32
+[debug] [2022-08-19T20:53:54.950Z] Node Version:  v14.17.0
+[debug] [2022-08-19T20:53:54.951Z] Time:          Fri Aug 19 2022 13:53:54 GMT-0700 (Pacific Daylight Time)
+[debug] [2022-08-19T20:53:54.951Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-19T20:53:54.958Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2022-08-19T20:53:54.959Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\HTML projects\Amazon 2.0
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-19T20:54:04.388Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Fri Aug 19 2022 13:54:04 GMT-0700 (Pacific Daylight Time)
+[debug] [2022-08-19T20:54:08.030Z] Error: connect ECONNREFUSED 104.197.85.31:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+[error] 
+[error] Error: Server Error. connect ECONNREFUSED 104.197.85.31:443
